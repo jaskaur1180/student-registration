@@ -1,0 +1,46 @@
+body {
+  background-color: #1F2B7D;
+  font-family: "Poppins", sans-serif;
+}
+body .container {
+  color: #ffffff;
+}
+body .container .img-container {
+  text-align: center;
+  margin: 5%;
+}
+body .container .title-main {
+  text-align: center;
+  margin-bottom: 5%;
+  font-weight: 500;
+}
+body .container .btn-submit {
+  background-color: #030728;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 1%;
+}
+body .container .checkbox-form {
+  margin-top: 1%;
+  color: #ffffff;
+}
+body .container .checkbox-form .checkbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body .container .checkbox-form .checkbox-container .form-check-label {
+  color: #ffffff;
+}
+body .container .checkbox-form .ckb-error-msg-container {
+  margin-top: 0.25rem;
+}
+body .container .checkbox-form .ckb-error-msg-container #ckb-error-msg {
+  width: 100%;
+  font-size: 0.875em;
+  color: #dc3545;
+}

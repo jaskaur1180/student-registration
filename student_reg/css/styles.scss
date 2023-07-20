@@ -1,0 +1,59 @@
+$color-brand-primary: #1F2B7D;
+$color-brand-secondary: #030728;
+$color-text-primary: #ffffff;
+
+body {
+  background-color: $color-brand-primary;
+  font-family: 'Poppins', sans-serif;
+
+  .container {
+    color: $color-text-primary;
+
+    .img-container {
+      text-align: center;
+      margin: 5%;
+    }
+
+    .title-main {
+      text-align: center;
+      margin-bottom: 5%;
+      font-weight: 500;
+    }
+
+    .btn-submit {
+      background-color: $color-brand-secondary;
+      color: $color-text-primary;
+      width: 100%;
+      margin-bottom: 5%;
+      padding: 1%;
+    }
+
+    .checkbox-form {
+      margin-top: 1%;
+      color: $color-text-primary;
+
+      .checkbox-container {
+        display: flex;
+        justify-content: space-between;
+
+        .form-check-label {
+          color: $color-text-primary;
+        }
+
+      }
+  
+      .ckb-error-msg-container{
+        margin-top: .25rem;
+
+          #ckb-error-msg {
+            width: 100%;
+            font-size: .875em;
+            color: #dc3545;
+          }
+      } 
+
+    }
+
+  }
+  
+}
